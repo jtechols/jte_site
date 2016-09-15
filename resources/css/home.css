@@ -1,0 +1,42 @@
+#content {
+    height: 100%;
+    width: 90%;
+}
+#pic-of-me {
+    height: 100%;
+    width: 35%;
+    margin-left: 45px;
+    margin-right: 0px;
+    display: inline-block;
+    overflow: hidden;
+}
+#pic-of-me img {
+    height: 75%;
+    width: 100%;
+    margin-top: 12.5%;
+    margin-bottom: 12.5%;
+}
+
+#info {
+    float: right;
+    height: 100%;
+    width: 50%;
+    margin: 0;
+}
+
+#name {
+    font-size: 40px;
+    font-weight: bold;  
+    margin-top: 25%;
+}
+#school {
+    font-size: 20px;
+    font-style: italic;
+}
+#header {
+    margin: 5% 0% 5% 0%;
+    font-size: 35px;
+}
+#description {
+    margin: 5px 20px 10px 5px;
+}
