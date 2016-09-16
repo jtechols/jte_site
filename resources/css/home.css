@@ -5,15 +5,18 @@
 #pic-of-me {
     height: 100%;
     width: 35%;
-    margin-left: 45px;
+    margin-left: 70px;
     margin-right: 0px;
     display: inline-block;
     overflow: hidden;
 }
 #pic-of-me img {
+    height: 75%;
+    width: 100%;
     overflow: hidden;
     margin-top: 12.5%;
     margin-bottom: 12.5%;
+    left: 0;
 }
 
 #info {
