@@ -1,9 +1,9 @@
 html {
-    background-color: #A6C9E7;
-    background: -webkit-linear-gradient(#A6C9E7, white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#A6C9E7, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#A6C9E7, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#A6C9E7, white); /* Standard syntax */
+    background-color: #9ac2e4;
+    background: -webkit-linear-gradient(#9ac2e4, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#9ac2e4, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#9ac2e4, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#9ac2e4, white); /* Standard syntax */
 }
 body {
     margin: 0px;
