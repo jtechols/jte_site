@@ -11,8 +11,7 @@
     overflow: hidden;
 }
 #pic-of-me img {
-    height: 75%;
-    width: 100%;
+    overflow: hidden;
     margin-top: 12.5%;
     margin-bottom: 12.5%;
 }
