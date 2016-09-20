@@ -68,11 +68,17 @@ a {
     position: fixed;
     top: 15px;
     left: 7px;
-    transition: opacity 0.2s ease;
-    -webkit-transition: opacity 0.2s ease; 
-    -moz-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ;
+    -webkit-transition: opacity 0.2s; 
+    -moz-transition: opacity 0.2s;
+    transition-delay: 0.2s ;
+    -webkit-transition-delay: 0.2s; 
+    -moz-transition-delay: 0.2s;
 
 }
 #sidebar-container:hover #sidebar > #expand{
     opacity: 0;
+    transition-delay: 0s ;
+    -webkit-transition-delay: 0s; 
+    -moz-transition-delay: 0s;
 }
