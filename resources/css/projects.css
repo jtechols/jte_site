@@ -1,0 +1,151 @@
+.project {
+    margin: auto;
+    margin-left: 5%;
+    width: 80%;
+    height: 50%;
+}
+.selected-proj {
+    margin: auto;
+    margin-left: 5%;
+    width: 80%;
+    height: 50%;
+}
+.proj-info {
+    height: 30%;
+    width: 70%;
+    margin: auto;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.proj-title {
+    font-size: 38px;
+    margin: auto;
+    margin-left: 19%;
+    margin-bottom: 5%;
+    padding-top: 3%;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.code-link {
+    border: 1pt solid black;
+    height: 7%;
+    width: 12%;
+    margin: auto;
+    margin-left: 47%;
+    font-size: 15px;
+    text-align: center;
+    background-color: #737373;
+    display: inline-block;
+    color: white;
+
+}
+.code-link:hover {
+    background-color: black;
+}
+.website-link {
+    border: 1pt solid black;
+    height: 7%;
+    width: 12%;
+    font-size: 15px;
+    text-align: center;
+    background-color: #737373;
+    display: inline-block;
+    color: white;
+}
+.website-link:hover {
+    background-color: black;
+}
+.single-link {
+    margin-left: 53.5%;
+    border: 1pt solid black;
+    height: 7%;
+    width: 12%;
+    font-size: 15px;
+    text-align: center;
+    background-color: #737373;
+    display: inline-block;
+    color: white;
+}
+.single-link:hover {
+    background-color: black;
+}
+.proj-pic {
+    margin-left: 22%;
+    width: 80%;
+    height: 85%;
+}
+.proj-pic img {
+    min-height: 10%;
+    min-width: 20%;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: 7%;
+
+}
+.left-arrow {
+    margin-top: 11%;
+    margin-left: 5%;
+    float: left;
+}
+.right-arrow {
+    float: right;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+.right-arrow svg {
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+    fill: #737373;
+    transition: fill 0.3s ;
+    -webkit-transition: fill 0.3s; 
+    -moz-transition: fill 0.3s;
+
+}
+.right-arrow:hover > svg {
+    transition: fill 0.3s ;
+    -webkit-transition: fill 0.3s; 
+    -moz-transition: fill 0.3s;
+    fill: black;
+}
+.left-arrow svg {
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+    fill: #737373;
+}
+.left-arrow:hover > svg {
+    transition: fill 0.3s ;
+    -webkit-transition: fill 0.3s; 
+    -moz-transition: fill 0.3s;
+    fill: black;
+}
+.circle {
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    background-color: #737373;
+    display: inline-block;
+    margin: 12px;
+    margin-top: 21%;
+
+}
+.circle:hover {
+    cursor: pointer;
+}
+#circ-1 {
+    margin-left: 47.3%;
+}
+.selected-circ {
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    background-color: #cccccc;
+    display: inline-block;
+    margin: 12px;
+    margin-top: 21%;
+}

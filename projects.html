@@ -3,7 +3,19 @@
         <title>Projects | John Echols</title>
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" type="text/css" href="resources/css/stylesheet.css"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/projects.css"/>
         <script src="resources/js/jquery-1.9.1.js"></script>
+        <script src="resources/js/script.js"></script>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-84570444-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
     </head>
     <body>
         <div id="sidebar-container">
@@ -25,21 +37,53 @@
             </div>
         </div>
         <div class="content">
-            <div id="class-proj">
-                <div class="project">
-                    Editor
-                <div>
-                <div class="project">
-                    Bear Maps
+            <div id="project-container">
+                <div id="proj-2" class="project">
+                    <div class="proj-title">Editor</div>
+                    <div class="proj-pic">
+                        <div class="left-arrow"><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M7.701,14.276l9.586-9.585c0.879-0.878,2.317-0.878,3.195,0l0.801,0.8c0.878,0.877,0.878,2.316,0,3.194  L13.968,16l7.315,7.315c0.878,0.878,0.878,2.317,0,3.194l-0.801,0.8c-0.878,0.879-2.316,0.879-3.195,0l-9.586-9.587  C7.229,17.252,7.02,16.62,7.054,16C7.02,15.38,7.229,14.748,7.701,14.276z"/></svg></div>
+                        <img src="resources/images/editor_screenshot.png">
+                        <div class="right-arrow"><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M24.291,14.276L14.705,4.69c-0.878-0.878-2.317-0.878-3.195,0l-0.8,0.8c-0.878,0.877-0.878,2.316,0,3.194  L18.024,16l-7.315,7.315c-0.878,0.878-0.878,2.317,0,3.194l0.8,0.8c0.878,0.879,2.317,0.879,3.195,0l9.586-9.587  c0.472-0.471,0.682-1.103,0.647-1.723C24.973,15.38,24.763,14.748,24.291,14.276z"/></svg></div>
+                    </div>
+                    <div class="proj-info">This was a class project for Computer Science 61B Data Structures. We created a simple text editor in Java using the JavaFX library focusing on the sotring of text into a linked list strucuture.</div>
+                    <a href="http://datastructur.es/sp16/materials/proj/proj2/proj2.html"><div class="single-link">Spec</div></a>
                 </div>
-            </div>
-            <div id="my-proj">
-                <div class="project">
-                    NewFL
+                <div id="proj-1" class="project">
+                    <div class="proj-title">Bear Maps</div>
+                    <div class="proj-pic">
+                        <div class="left-arrow"><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M7.701,14.276l9.586-9.585c0.879-0.878,2.317-0.878,3.195,0l0.801,0.8c0.878,0.877,0.878,2.316,0,3.194  L13.968,16l7.315,7.315c0.878,0.878,0.878,2.317,0,3.194l-0.801,0.8c-0.878,0.879-2.316,0.879-3.195,0l-9.586-9.587  C7.229,17.252,7.02,16.62,7.054,16C7.02,15.38,7.229,14.748,7.701,14.276z"/></svg></div>
+                        <img src="resources/images/bear_maps_screenshot.png">
+                        <div class="right-arrow"><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M24.291,14.276L14.705,4.69c-0.878-0.878-2.317-0.878-3.195,0l-0.8,0.8c-0.878,0.877-0.878,2.316,0,3.194  L18.024,16l-7.315,7.315c-0.878,0.878-0.878,2.317,0,3.194l0.8,0.8c0.878,0.879,2.317,0.879,3.195,0l9.586-9.587  c0.472-0.471,0.682-1.103,0.647-1.723C24.973,15.38,24.763,14.748,24.291,14.276z"/></svg></div>
+                    </div>
+                    <div class="proj-info">This was a class project for Computer Science 61B Data Structures. We created a mapping application that allows you to find the shortest path from two places in Berkeley. The application implements the A* Search algorithm to find the shortest distance and is written in Java.</div> 
+                    <a href=""><div class="code-link">Website</div></a>
+                    <a href="http://datastructur.es/sp16/materials/proj/proj3/proj3.html"><div class="website-link">Spec</div></a> 
                 </div>
-                <div class="project">
-                    Now! Trivia
+                <div id="proj-3" class="project">
+                    <div class="proj-title">NewFL</div>
+                    <div class="proj-pic">
+                        <div class="left-arrow"><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M7.701,14.276l9.586-9.585c0.879-0.878,2.317-0.878,3.195,0l0.801,0.8c0.878,0.877,0.878,2.316,0,3.194  L13.968,16l7.315,7.315c0.878,0.878,0.878,2.317,0,3.194l-0.801,0.8c-0.878,0.879-2.316,0.879-3.195,0l-9.586-9.587  C7.229,17.252,7.02,16.62,7.054,16C7.02,15.38,7.229,14.748,7.701,14.276z"/></svg></div>
+                        <img src="resources/images/newfl_screenshot.png">
+                        <div class="right-arrow"><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M24.291,14.276L14.705,4.69c-0.878-0.878-2.317-0.878-3.195,0l-0.8,0.8c-0.878,0.877-0.878,2.316,0,3.194  L18.024,16l-7.315,7.315c-0.878,0.878-0.878,2.317,0,3.194l0.8,0.8c0.878,0.879,2.317,0.879,3.195,0l9.586-9.587  c0.472-0.471,0.682-1.103,0.647-1.723C24.973,15.38,24.763,14.748,24.291,14.276z"/></svg></div>
+                    </div>
+                    <div class="proj-info">This was a personal project I started in the Summer of 2015 after taking my first Computer Science course. The web-app is a fantasy football style game devloped for the Cal Band. The game allows players to pick Cal Band members to be a part of their "team" and then the players score points as the members of their team perform band related activites. The app is written in Python using the Django framework and is hosted on Heroku.</div> 
+                    <a href="https://github.com/jtechols/newfl"><div class="single-link">Code</div></a>
                 </div>
+                <div id="proj-4" class="project">
+                    <div class="proj-title">Now Trivia!</div>
+                    <div class="proj-pic">
+                        <div class="left-arrow"><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M7.701,14.276l9.586-9.585c0.879-0.878,2.317-0.878,3.195,0l0.801,0.8c0.878,0.877,0.878,2.316,0,3.194  L13.968,16l7.315,7.315c0.878,0.878,0.878,2.317,0,3.194l-0.801,0.8c-0.878,0.879-2.316,0.879-3.195,0l-9.586-9.587  C7.229,17.252,7.02,16.62,7.054,16C7.02,15.38,7.229,14.748,7.701,14.276z"/></svg></div>
+                        <img src="resources/images/nowt_screenshot.png">
+                        <div class="right-arrow"><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M24.291,14.276L14.705,4.69c-0.878-0.878-2.317-0.878-3.195,0l-0.8,0.8c-0.878,0.877-0.878,2.316,0,3.194  L18.024,16l-7.315,7.315c-0.878,0.878-0.878,2.317,0,3.194l0.8,0.8c0.878,0.879,2.317,0.879,3.195,0l9.586-9.587  c0.472-0.471,0.682-1.103,0.647-1.723C24.973,15.38,24.763,14.748,24.291,14.276z"/></svg></div>
+                    </div>
+                    <div class="proj-info">This was a personal project I did in the Summer of 2016. The web-app is a trivia game based on the popular music album series Now That's What I Call Music! Players are given a song and must guess what album from the series it is from. The game is written in python using the Djano framework and is deployed through Heroku. Upcoming updates include Spotify API integration and new frontend design so stay tuned!</div> 
+                    <a href="https://github.com/jtechols/now_trivia"><div class="code-link">Code</div></a>
+                    <a href="http://www.nowthatstrivia.com/"><div class="website-link">Spec</div></a> 
+                </div>
+                <div id="circ-1" class="circle"></div>
+                <div id="circ-2" class="circle"></div>
+                <div id="circ-3" class="circle"></div>
+                <div id="circ-4" class="circle"></div>
             </div>
         </div>
     </body>
