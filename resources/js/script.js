@@ -19,9 +19,9 @@ $(document).ready(function(){
             $('#proj-3').addClass('selected-proj');
             $('#circ-3').addClass("selected-circ");
         } else if (proj == "proj-3") {
-            $('#proj-4').show();
-            $('#proj-4').addClass('selected-proj');
-            $('#circ-4').addClass("selected-circ");
+            $('#proj-1').show();
+            $('#proj-1').addClass('selected-proj');
+            $('#circ-1').addClass("selected-circ");
         } else if (proj == "proj-4") {
             $('#proj-1').show();
             $('#proj-1').addClass('selected-proj');
@@ -42,9 +42,9 @@ $(document).ready(function(){
             $('#proj-3').addClass('selected-proj');
             $('#circ-3').addClass("selected-circ");
         } else if (proj == "proj-1") {
-            $('#proj-4').show();
-            $('#proj-4').addClass('selected-proj');
-            $('#circ-4').addClass("selected-circ");
+            $('#proj-3').show();
+            $('#proj-3').addClass('selected-proj');
+            $('#circ-3').addClass("selected-circ");
         } else if (proj == "proj-2") {
             $('#proj-1').show();
             $('#proj-1').addClass('selected-proj');
@@ -66,9 +66,9 @@ $(document).ready(function(){
                 $('#proj-3').addClass('selected-proj');
                 $('#circ-3').addClass("selected-circ");
             } else if (proj == "proj-1") {
-                $('#proj-4').show();
-                $('#proj-4').addClass('selected-proj');
-                $('#circ-4').addClass("selected-circ");
+                $('#proj-3').show();
+                $('#proj-3').addClass('selected-proj');
+                $('#circ-3').addClass("selected-circ");
             } else if (proj == "proj-2") {
                 $('#proj-1').show();
                 $('#proj-1').addClass('selected-proj');
@@ -88,9 +88,9 @@ $(document).ready(function(){
                 $('#proj-3').addClass('selected-proj');
                 $('#circ-3').addClass("selected-circ");
             } else if (proj == "proj-3") {
-                $('#proj-4').show();
-                $('#proj-4').addClass('selected-proj');
-                $('#circ-4').addClass("selected-circ");
+                $('#proj-1').show();
+                $('#proj-1').addClass('selected-proj');
+                $('#circ-1').addClass("selected-circ");
             } else if (proj == "proj-4") {
                 $('#proj-1').show();
                 $('#proj-1').addClass('selected-proj');
